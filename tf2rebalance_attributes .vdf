@@ -1,0 +1,2013 @@
+"tf2rebalance_attributes"
+{
+	//scout
+
+		//primary
+
+			//force a nature
+			"45"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//clip size penalty
+				"attribute2"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+			//backscatter
+			"1103"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//less accurate
+				"attribute2"
+				{
+					"id"	"36"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//Baby faces blaster
+			"772"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//slower move speed
+				"attribute2"
+				{
+					"id"	"54"
+					"value"	"1"
+				}
+				//boost reduced double jump
+				"attribute3"
+				{
+					"id"	"419"
+					"value"	"0"
+				}
+				//boost reduced when damaged
+				"attribute4"
+				{
+					"id"	"733"
+					"value"	"0"
+				}
+			}
+
+			//soda poper
+			"448"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+			//shortstop
+			"220"
+			{
+				"keepattribs" "1"
+				//increased pushback by airblast
+				"attribute1"
+				{
+					"id"	"525" 
+					"value"	"0"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//winger
+			"449"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+			//pretty boys pocket pistol
+			"773"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+			//crit-a-cola
+			"163"
+			{
+				"keepattribs" "1"
+				//marked for death, id is either 414 or 218
+				"attribute1"
+				{
+					"id"	"414"
+					"value"	"0"
+				}
+			}
+
+			//the flying guillotine
+			"812"
+			{
+				"keepattribs" "1"
+				//no random crits
+				"attribute1"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//sun on a stick
+			"349"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//candy cane
+			"317"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"65" 
+					"value"	"1"
+				}
+			}
+
+			//wrap assassin
+			"648"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//atomizer
+			"450"
+			{
+				"keepattribs" "1"
+				//reduced damage vs players
+				"attribute1"
+				{
+					"id"	"138" 
+					"value"	"1"
+				}
+				//deploys slower
+				"attribute1"
+				{
+					"id"	"773" 
+					"value"	"1"
+				}
+			}
+
+			//the sandman
+			"44"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+			}
+
+			//the boston basher
+			"325"
+			{
+				"keepattribs" "1"
+				//on miss bleed
+				"attribute1"
+				{
+					"id"	"204" 
+					"value"	"0"
+				}
+			}
+
+			//the three-rune blade
+			"452"
+			{
+				"keepattribs" "1"
+				//on miss bleed
+				"attribute1"
+				{
+					"id"	"204"
+					"value"	"0"
+				}
+			}
+
+			//fan-o-war
+			"355"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+
+		//melee
+	
+	//scout
+
+	//soldier
+
+		//primary
+
+			//rocket jumper
+			"237"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//cant carry intel
+				"attribute2"
+				{
+					"id"	"400"
+					"value"	"1"
+				}
+			}
+
+			//direct hit
+			"127"
+			{
+				"keepattribs" "1"
+				//reduced blast radius
+				"attribute1"
+				{
+					"id"	"100"
+					"value"	"1"
+				}
+			}
+
+			//cow mangler
+			"441"
+			{
+				"keepattribs" "1"
+				//no random crits
+				"attribute1"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+				//only 20% to buildings
+				"attribute2"
+				{
+					"id"	"284"
+					"value"	"1"
+				}
+				//minicrits whenever crit
+				"attribute3"
+				{
+					"id"	"869"
+					"value"	"0"
+				}
+
+			}
+
+			//liberty launcher
+			"414"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//beggars bazooka
+			"730"
+			{
+				"keepattribs" "1"
+				//reduced blast radius
+				"attribute1"
+				{
+					"id"	"100"
+					"value"	"1"
+				}
+				//no ammo when active
+				"attribute2"
+				{
+					"id"	"421"
+					"value"	"0"
+				}
+				//degrees random
+				"attribute3"
+				{
+					"id"	"411"
+					"value"	"0"
+				}
+				//overloading misfire
+				"attribute4"
+				{
+					"id"	"417"
+					"value"	"0"
+				}
+			}
+
+			//air strike
+			"127"
+			{
+				"keepattribs" "1"
+				//reduced blast radius
+				"attribute1"
+				{
+					"id"	"100"
+					"value"	"1"
+				}
+				//damage penalty
+				"attribute2"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//black box
+			"228"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//panic attack
+			"1153"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//successive shots less accurate
+				"attribute2"
+				{
+					"id"	"808"
+					"value"	"0"
+				}
+			}
+
+			//reserve shooter
+			"415"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//escape plan
+			"775"
+			{
+				"keepattribs" "1"
+				//self mark for death
+				"attribute1"
+				{
+					"id"	"414"
+					"value"	"0"
+				}
+				//less medic healing
+				"attribute2"
+				{
+					"id"	"740"
+					"value"	"1"
+				}
+			}
+
+			//disciplinary action
+			"447"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+			}
+
+			//the equalizer
+			"128"
+			{
+				"keepattribs" "1"
+				//less medic healing
+				"attribute1"
+				{
+					"id"	"740"
+					"value"	"1"
+				}
+			}
+
+			//market gardener
+			"416"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+
+			}
+
+		//melee
+
+	//soldier
+
+	//pyro
+
+		//primary
+
+			//dragons fury
+			"1178"
+			{
+				"keepattribs" "1"
+				//repressurization on airblast
+				"attribute1"
+				{
+					"id"	"2063"
+					"value"	"1"
+				}
+			}
+
+			//the degreaser
+			"215"
+			{
+				"keepattribs" "1"
+				//afterburn damage penalty
+				"attribute1"
+				{
+					"id"	"72"
+					"value"	"1"
+				}
+				//airblast cost increased
+				"attribute2"
+				{
+					"id"	"170"
+					"value"	"1"
+				}
+			}
+
+			//the backburner
+			"40"
+			{
+				"keepattribs" "1"
+				//airblast cost increased
+				"attribute1"
+				{
+					"id"	"170"
+					"value"	"1"
+				}
+			}
+
+			//phlogistinator
+			"594"
+			{
+				"keepattribs" "1"
+				//no airblast
+				"attribute1"
+				{
+					"id"	"356"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//the detonator
+			"351"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//blast damage to self
+				"attribute2"
+				{
+					"id"	"207"
+					"value"	"1"
+				}
+
+			}
+
+			//the scorch shot
+			"740"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//self damage force
+				"attribute2"
+				{
+					"id"	"59"
+					"value"	"1"
+				}
+			}
+
+			//the gas passer
+			"1180"
+			{
+				"keepattribs" "1"
+				//resupply closet meter affect
+				"attribute1"
+				{
+					"id"	"848"
+					"value"	"0"
+				}
+				//gas meter starts empty
+				"attribute2"
+				{
+					"id"	"878"
+					"value"	"0"
+				}
+			}
+
+			//manmelter
+			"595"
+			{
+				"keepattribs" "1"
+				//no random crits
+				"attribute1"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//powerjack
+			"214"
+			{
+				"keepattribs" "1"
+				//damage vulnerability
+				"attribute1"
+				{
+					"id"	"61"
+					"value"	"1"
+				}
+			}
+
+			//axtinguisher
+			"38"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//slower holster speed
+				"attribute2"
+				{
+					"id"	"772"
+					"value"	"1"
+				}
+			}
+
+			//axtinguisher
+			"457"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//slower holster speed
+				"attribute2"
+				{
+					"id"	"772"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//homewrecker
+			"153"
+			{
+				"keepattribs" "1"
+				//reduced damage vs players
+				"attribute1"
+				{
+					"id"	"138" 
+					"value"	"1"
+				}
+			}
+
+			//the maul
+			"466"
+			{
+				"keepattribs" "1"
+				//reduced damage vs players
+				"attribute1"
+				{
+					"id"	"138" 
+					"value"	"1"
+				}
+			}
+
+			//the back scratcher
+			"326"
+			{
+				"keepattribs" "1"
+				//health from healers reduced
+				"attribute1"
+				{
+					"id"	"69"
+					"value"	"1"
+				}
+			}
+
+			//sharpened volcano fragment
+			"348"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+			}
+
+			//neon annihilator
+			"813"
+			{
+				"keepattribs" "1"
+				//reduced damage vs players
+				"attribute1"
+				{
+					"id"	"138" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//hot hand
+			"1181"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+			}
+
+		//melee
+
+	//pyro
+
+	//demo
+
+		//primary
+
+			//iron bomber
+			"1151"
+			{
+				"keepattribs" "1"
+				//explosion radius decreased
+				"attribute1"
+				{
+					"id"	"100"
+					"value"	"1"
+				}
+			}
+
+			//loch n load
+			"308"
+			{
+				"keepattribs" "1"
+				//explosion radius decreased
+				"attribute1"
+				{
+					"id"	"100"
+					"value"	"1"
+				}
+				//clip size penalty
+				"attribute2"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//shatter on impact
+				"attribute3"
+				{
+					"id"	"127"
+					"value"	"0"
+				}
+			}
+
+			//loose cannon
+			"996"
+			{
+				"keepattribs" "1"
+				//cannonballs do not explode
+				"attribute1"
+				{
+					"id"	"467"
+					"value"	"0"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//quickiebomb launcher
+			"1150"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//clip size penalty
+				"attribute2"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+			}
+
+			//scottish resistance
+			"130"
+			{
+				"keepattribs" "1"
+				//slower arm time
+				"attribute1"
+				{
+					"id"	"120"
+					"value"	"0"
+				}
+			}
+
+			//sticky jumper
+			"265"
+			{
+				"keepattribs" "1"
+				//slower arm time
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//max stickies out
+				"attribute2"
+				{
+					"id"	"89"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//eyelander
+			"132"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//nessies nine iron
+			"482"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//Horseless Headless Horsemann's Headtaker
+			"266"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//claidheamh Mor
+			"327"
+			{
+				"keepattribs" "1"
+				//damage vulnerability
+				"attribute1"
+				{
+					"id"	"61"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//persian persuader
+			"404"
+			{
+				"keepattribs" "1"
+				//reduced ammo on primary
+				"attribute1"
+				{
+					"id"	"77"
+					"value"	"1"
+				}
+				//reduced ammo on secondary
+				"attribute2"
+				{
+					"id"	"79"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//skullcutter
+			"172"
+			{
+				"keepattribs" "1"
+				//slower move speed on wearer
+				"attribute1"
+				{
+					"id"	"54"
+					"value"	"1"
+				}
+			}
+
+			//ullapool caber
+			"307"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+				//deploys slower
+				"attribute2"
+				{
+					"id"	"773" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//pain train
+			"154"
+			{
+				"keepattribs" "1"
+				//more damage from bullets
+				"attribute1"
+				{
+					"id"	"67"
+					"value"	"1"
+				}
+			}
+
+			//half zatoichi
+			"357"
+			{
+				"keepattribs" "1"
+				//honorbound, 50 damage when switching off
+				"attribute1"
+				{
+					"id"	"226"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//melee
+
+	//demo
+
+	//heavy
+
+		//primary
+
+			//tomislav
+			"424"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+			}
+
+			//huo long heater
+			"811"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//consumes additional ammo while spun up
+				"attribute2"
+				{
+					"id"	"431" 
+					"value"	"0"
+				}
+			}
+
+			//brass beast
+			"312"
+			{
+				"keepattribs" "1"
+				//slower spin up time
+				"attribute1"
+				{
+					"id"	"86"
+					"value"	"1"
+				}
+				//slower move speed while deployed
+				"attribute2"
+				{
+					"id"	"183"
+					"value"	"1"
+				}
+			}
+
+			//natasha
+			"41"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//slower spin up time
+				"attribute2"
+				{
+					"id"	"86"
+					"value"	"1"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//family business
+			"425"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//buffalo steak sandwich
+			"311"
+			{
+				"keepattribs" "1"
+				//damage vuln while active
+				"attribute1"
+				{
+					"id"	"798"
+					"value"	"1"
+				}
+			}
+
+			//second banana
+			"1190"
+			{
+				"keepattribs" "1"
+				//less healing effect
+				"attribute1"
+				{
+					"id"	"876"
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//killing gloves of boxing
+			"43"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+			}
+
+			//eviction notice
+			"426"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//health drained while active
+				"attribute2"
+				{
+					"id"	"855" 
+					"value"	"0"
+				}
+			}
+
+			//fists of steel
+			"331"
+			{
+				"keepattribs" "1"
+				//damage from melee sources while active
+				"attribute1"
+				{
+					"id"	"206"
+					"value"	"1"
+				}
+				//slower holster speed
+				"attribute2"
+				{
+					"id"	"772"
+					"value"	"1"
+				}
+				//maximum overheal reduced
+				"attribute3"
+				{
+					"id"	"800"
+					"value"	"1"
+				}
+				//health from healers reduced
+				"attribute4"
+				{
+					"id"	"69"
+					"value"	"1"
+				}
+			}
+
+			//gloves of running urgently
+			"239"
+			{
+				"keepattribs" "1"
+				//slower holster speed
+				"attribute1"
+				{
+					"id"	"772"
+					"value"	"1"
+				}
+				//health drained while active
+				"attribute2"
+				{
+					"id"	"855" 
+					"value"	"0"
+				}
+			}
+
+			//warriors spirit
+			"310"
+			{
+				"keepattribs" "1"
+				//damage vulnerability
+				"attribute1"
+				{
+					"id"	"412"
+					"value"	"1"
+				}
+			}
+
+			//the holiday punch
+			"656"
+			{
+				"keepattribs" "1"
+				//crit no damage
+				"attribute1"
+				{
+					"id"	"363"
+					"value"	"0"
+				}
+			}
+
+		//melee
+
+	//heavy
+
+	//engi
+
+		//primary
+
+			//widowmaker
+			"527"
+			{
+				"keepattribs" "1"
+				//loses ammo on shot
+				"attribute1"
+				{
+					"id"	"298"
+					"value"	"1"
+				}
+				//uses metal
+				"attribute2"
+				{
+					"id"	"301"
+					"value"	"0"
+				}
+				
+			}
+
+			//frontier justice
+			"141"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//revenge crits lost on death
+				"attribute2"
+				{
+					"id"	"799"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+				
+			}
+
+			//rescue ranger
+			"997"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//reduced ammo on primary
+				"attribute2"
+				{
+					"id"	"77"
+					"value"	"1"
+				}
+				//self mark for death when hauling buildings
+				"attribute3"
+				{
+					"id"	"472"
+					"value"	"0"
+				}
+				//ratio when repairing buildings
+				"attribute4"
+				{
+					"id"	"880"
+					"value"	"1"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//short circuit
+			"528"
+			{
+				"keepattribs" "1"
+				//loses ammo on shot
+				"attribute1"
+				{
+					"id"	"298"
+					"value"	"0"
+				}
+				//uses metal
+				"attribute2"
+				{
+					"id"	"301"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//the jag
+			"329"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//slower repair rate
+				"attribute2"
+				{
+					"id"	"95" 
+					"value"	"1"
+				}
+				//damage penalty vs buildings
+				"attribute3"
+				{
+					"id"	"775" 
+					"value"	"1"
+				}
+			}
+
+			//the eureka effect
+			"589"
+			{
+				"keepattribs" "1"
+				//construction hit speed boost decreased
+				"attribute1"
+				{
+					"id"	"93" 
+					"value"	"1"
+				}
+				//less metal from pickups and dispensers
+				"attribute2"
+				{
+					"id"	"732" 
+					"value"	"1"
+				}
+			}
+
+			//southern hospitality
+			"155"
+			{
+				"keepattribs" "1"
+				//fire damage vulnerability
+				"attribute1"
+				{
+					"id"	"61" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//gunsilnger
+			"142"
+			{
+				"keepattribs" "1"
+				//replaces the sentry with a mini sentry
+				"attribute1"
+				{
+					"id"	"124" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//melee
+
+		//special
+
+			//pda
+			"0000"
+			{
+				"keepattribs" "1"
+				"attribute1"
+				{
+					"id"	"0"
+					"value"	"0"
+				}
+			}
+
+		//special
+
+	//engi
+
+	//medic
+
+		//primary
+
+			//the crusaders crossbow
+			"305"
+			{
+				"keepattribs" "1"
+				//reduced ammo on primary
+				"attribute1"
+				{
+					"id"	"77"
+					"value"	"1"
+				}
+				//no headshots
+				"attribute2"
+				{
+					"id"	"42"
+					"value"	"0"
+				}
+			}
+
+			//the blutsauger
+			"36"
+			{
+				"keepattribs" "1"
+				//less health regenerated per second
+				"attribute1"
+				{
+					"id"	"881"
+					"value"	"1"
+				}
+			}
+
+			//the overdose
+			"412"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+		//primary
+
+		//secondary
+
+			//the quick-fix
+			"411"
+			{
+				"keepattribs" "1"
+				//overheal penalty
+				"attribute1"
+				{
+					"id"	"105"
+					"value"	"1"
+				}
+			}
+
+			//the vaccinator
+			"998"
+			{
+				"keepattribs" "1"
+				//overheal penalty
+				"attribute1"
+				{
+					"id"	"479"
+					"value"	"1"
+				}
+				//ubercharge rate on overhealed patiens
+				"attribute2"
+				{
+					"id"	"739"
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//the solemn vow
+			"413"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+			}
+
+			//the vita-saw
+			"173"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+			}
+
+			//The Ubersaw
+			"37"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+			}
+
+			//the amputator
+			"304"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+		//melee
+
+	//medic
+
+	//sniper
+	
+		//classic
+		"1098"
+		{
+			"keepattribs" "1"
+			//bodyshot penalty
+			"attribute1"
+			{
+				"id"	"392"
+				"value"	"1"
+			}
+			//no headshots when fully charged
+			"attribute2"
+			{
+				"id"	"306"
+				"value"	"0"
+			}
+		}
+
+		//the machina
+		"526"
+		{
+			"keepattribs" "1"
+			//cannot fire unless zoomed in
+			"attribute1"
+			{
+				"id"	"297"
+				"value"	"0"
+			}
+			//fires tracer rounds
+			"attribute2"
+			{
+				"id"	"305"
+				"value"	"0"
+			}
+		}
+
+		//the machina
+		"30665"
+		{
+			"keepattribs" "1"
+			//cannot fire unless zoomed in
+			"attribute1"
+			{
+				"id"	"297"
+				"value"	"0"
+			}
+			//fires tracer rounds
+			"attribute2"
+			{
+				"id"	"305"
+				"value"	"0"
+			}
+		}
+
+		//the bazaar bargain
+		"402"
+		{
+			"keepattribs" "1"
+			//charge rate decreased
+			"attribute1"
+			{
+				"id"	"268"
+				"value"	"1"
+			}
+		}
+
+		//syndey sleeper
+		"230"
+		{
+			"keepattribs" "1"
+			//no headshots
+			"attribute1"
+			{
+				"id"	"42"
+				"value"	"1"
+			}
+		}
+
+		//the hitmans heatmaker
+		"752"
+		{
+			"keepattribs" "1"
+			//bodyshot penalty
+			"attribute1"
+			{
+				"id"	"392"
+				"value"	"1"
+			}
+		}
+
+		//secondary
+
+			//the razorback
+			"57"
+			{
+				"keepattribs" "1"
+				//maximum overheal on wearer
+				"attribute1"
+				{
+					"id"	"800"
+					"value"	"1"
+				}
+			}
+
+			//the cleaners carbine
+			"751"
+			{
+				"keepattribs" "1"
+				//clip size penalty
+				"attribute1"
+				{
+					"id"	"3"
+					"value"	"1"
+				}
+				//slower firing speed
+				"attribute2"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//Bushwacka
+			"232"
+			{
+				"keepattribs" "1"
+				//damage vulnerability
+				"attribute1"
+				{
+					"id"	"412"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//tribalmans shiv
+			"171"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//Shahanshah
+			"401"
+			{
+				"keepattribs" "1"
+				//decreased damage when half health
+				"attribute1"
+				{
+					"id"	"225"
+					"value"	"1"
+				}
+			}
+		//melee
+
+	//sniper
+
+	//spy
+
+		//primary
+
+			//The ambassador
+			"61"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//slower firing speed
+				"attribute2"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+				//critical damage is affected by range
+				"attribute3"
+				{
+					"id"	"868"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute4"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//the diamondback
+			"525"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//the l'etranger
+			"224"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1" 
+					"value"	"1"
+				}
+			}
+
+			//the enforcer
+			"460"
+			{
+				"keepattribs" "1"
+				//slower firing speed
+				"attribute1"
+				{
+					"id"	"5"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+		//primary
+
+		//secondary
+
+			//the dead ringer
+			"59"
+			{
+				"keepattribs" "1"
+				//cloak meter after feign death
+				"attribute1"
+				{
+					"id"	"726"
+					"value"	"1"
+				}
+			}
+
+			//cloak and dagger
+			"60"
+			{
+				"keepattribs" "1"
+				//cloak meter from ammoboxes while invis
+				"attribute1"
+				{
+					"id"	"729"
+					"value"	"1"
+				}
+				//cloak meter from ammoboxes while invis
+				"attribute2"
+				{
+					"id"	"728"
+					"value"	"0"
+				}
+			}
+
+		//secondary
+
+		//melee
+
+			//The spycicle
+			"649"
+			{
+				"keepattribs" "1"
+				//backstab turns victim to ice
+				"attribute1"
+				{
+					"id"	"347"
+					"value"	"0"
+				}
+				//melts in fire
+				"attribute2"
+				{
+					"id"	"359"
+					"value"	"0"
+				}
+			}
+
+			//Conniver's Kunai
+			"356"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+			}
+
+			//the big earner
+			"461"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+			}
+
+			//your eternal reward
+			"225"
+			{
+				"keepattribs" "1"
+				//cloak drain rate
+				"attribute1"
+				{
+					"id"	"34"
+					"value"	"1"
+				}
+				//disguises fully deplet cloak meter
+				"attribute2"
+				{
+					"id"	"816"
+					"value"	"0"
+				}
+			}
+
+			//Wanga prick
+			"574"
+			{
+				"keepattribs" "1"
+				//cloak drain rate
+				"attribute1"
+				{
+					"id"	"34"
+					"value"	"1"
+				}
+				//disguises fully deplet cloak meter
+				"attribute2"
+				{
+					"id"	"816"
+					"value"	"0"
+				}
+			}
+
+		//melee
+
+		//special
+
+			//the red tape recorder
+			"810"
+			{
+				"keepattribs" "1"
+				//sapper damage penalty
+				"attribute1"
+				{
+					"id"	"426"
+					"value"	"1"
+				}
+			}
+
+		//special
+
+	//spy
+}
