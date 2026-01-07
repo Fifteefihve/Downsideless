@@ -32,15 +32,16 @@
 					"id"	"3"
 					"value"	"1"
 				}
-				//no random crits
-				"no random crits"
-				{
-					"value"	"0"
-				}
 				//less accurate
-				"attribute3"
+				"attribute2"
 				{
 					"id"	"36"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -144,9 +145,10 @@
 			{
 				"keepattribs" "1"
 				//no random crits
-				"no random crits"
+				"attribute1"
 				{
-					"value"	"0"
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -185,7 +187,7 @@
 				//damage penalty
 				"attribute1"
 				{
-					"id"	"65" 
+					"id"	"1" 
 					"value"	"1"
 				}
 			}
@@ -232,6 +234,18 @@
 				}
 			}
 
+			//the three-rune blade
+			"452"
+			{
+				"keepattribs" "1"
+				//on miss bleed
+				"attribute1"
+				{
+					"id"	"204"
+					"value"	"0"
+				}
+			}
+
 			//fan-o-war
 			"355"
 			{
@@ -263,16 +277,11 @@
 					"id"	"1"
 					"value"	"1"
 				}
-				//no random crits
-				"no random crits"
-				{
-					"value"	"0"
-				}
 				//cant carry intel
-				"attribute3"
+				"attribute2"
 				{
 					"id"	"400"
-					"value"	"0"
+					"value"	"1"
 				}
 			}
 
@@ -293,15 +302,16 @@
 			{
 				"keepattribs" "1"
 				//no random crits
-				"no random crits"
+				"attribute1"
 				{
-					"value"	"0"
+					"id"	"15" 
+					"value"	"1"
 				}
 				//only 20% to buildings
 				"attribute2"
 				{
 					"id"	"284"
-					"value"	"0"
+					"value"	"1"
 				}
 				//minicrits whenever crit
 				"attribute3"
@@ -309,6 +319,7 @@
 					"id"	"869"
 					"value"	"0"
 				}
+
 			}
 
 			//liberty launcher
@@ -473,9 +484,11 @@
 					"id"	"5"
 					"value"	"1"
 				}
-				"no random crits"
+				//no random crits
+				"attribute2"
 				{
-					"value"	"0"
+					"id"	"15" 
+					"value"	"1"
 				}
 
 			}
@@ -492,10 +505,11 @@
 			"1178"
 			{
 				"keepattribs" "1"
+				//repressurization on airblast
 				"attribute1"
 				{
-					"id"	"2064"
-					"value"	"0"
+					"id"	"2063"
+					"value"	"1"
 				}
 			}
 
@@ -537,7 +551,13 @@
 				"attribute1"
 				{
 					"id"	"356"
-					"value"	"0"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -582,14 +602,33 @@
 				}
 			}
 
-			//manmelter
-			"0000"
+			//the gas passer
+			"1180"
 			{
 				"keepattribs" "1"
+				//resupply closet meter affect
 				"attribute1"
 				{
-					"id"	"0"
+					"id"	"848"
 					"value"	"0"
+				}
+				//gas meter starts empty
+				"attribute2"
+				{
+					"id"	"878"
+					"value"	"0"
+				}
+			}
+
+			//manmelter
+			"595"
+			{
+				"keepattribs" "1"
+				//no random crits
+				"attribute1"
+				{
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -627,8 +666,44 @@
 				}
 			}
 
+			//axtinguisher
+			"457"
+			{
+				"keepattribs" "1"
+				//damage penalty
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//slower holster speed
+				"attribute2"
+				{
+					"id"	"772"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
 			//homewrecker
 			"153"
+			{
+				"keepattribs" "1"
+				//reduced damage vs players
+				"attribute1"
+				{
+					"id"	"138" 
+					"value"	"1"
+				}
+			}
+
+			//the maul
+			"466"
 			{
 				"keepattribs" "1"
 				//reduced damage vs players
@@ -671,6 +746,12 @@
 				"attribute1"
 				{
 					"id"	"138" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -731,6 +812,18 @@
 				}
 			}
 
+			//loose cannon
+			"996"
+			{
+				"keepattribs" "1"
+				//cannonballs do not explode
+				"attribute1"
+				{
+					"id"	"467"
+					"value"	"0"
+				}
+			}
+
 		//primary
 
 		//secondary
@@ -765,6 +858,30 @@
 				}
 			}
 
+			//sticky jumper
+			"265"
+			{
+				"keepattribs" "1"
+				//slower arm time
+				"attribute1"
+				{
+					"id"	"1"
+					"value"	"1"
+				}
+				//max stickies out
+				"attribute2"
+				{
+					"id"	"89"
+					"value"	"0"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
 		//secondary
 
 		//melee
@@ -779,6 +896,48 @@
 					"id"	"125" 
 					"value"	"0"
 				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//nessies nine iron
+			"482"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+			}
+
+			//Horseless Headless Horsemann's Headtaker
+			"266"
+			{
+				"keepattribs" "1"
+				//max health on wearer
+				"attribute1"
+				{
+					"id"	"125" 
+					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
 			}
 
 			//claidheamh Mor
@@ -789,6 +948,12 @@
 				"attribute1"
 				{
 					"id"	"61"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -807,6 +972,12 @@
 				"attribute2"
 				{
 					"id"	"79"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -839,6 +1010,12 @@
 					"id"	"773" 
 					"value"	"1"
 				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
 			}
 
 			//pain train
@@ -862,6 +1039,12 @@
 				{
 					"id"	"226"
 					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -975,7 +1158,7 @@
 				"attribute1"
 				{
 					"id"	"876"
-					"value"	"0"
+					"value"	"1"
 				}
 			}
 
@@ -1073,6 +1256,18 @@
 				}
 			}
 
+			//the holiday punch
+			"656"
+			{
+				"keepattribs" "1"
+				//crit no damage
+				"attribute1"
+				{
+					"id"	"363"
+					"value"	"0"
+				}
+			}
+
 		//melee
 
 	//heavy
@@ -1097,6 +1292,7 @@
 					"id"	"301"
 					"value"	"0"
 				}
+				
 			}
 
 			//frontier justice
@@ -1115,6 +1311,13 @@
 					"id"	"799"
 					"value"	"0"
 				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
+				
 			}
 
 			//rescue ranger
@@ -1166,6 +1369,12 @@
 				{
 					"id"	"301"
 					"value"	"0"
+				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -1225,6 +1434,12 @@
 					"id"	"61" 
 					"value"	"1"
 				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
 			}
 
 			//gunsilnger
@@ -1236,6 +1451,12 @@
 				{
 					"id"	"124" 
 					"value"	"0"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
+					"value"	"1"
 				}
 			}
 
@@ -1431,6 +1652,24 @@
 			}
 		}
 
+		//the machina
+		"30665"
+		{
+			"keepattribs" "1"
+			//cannot fire unless zoomed in
+			"attribute1"
+			{
+				"id"	"297"
+				"value"	"0"
+			}
+			//fires tracer rounds
+			"attribute2"
+			{
+				"id"	"305"
+				"value"	"0"
+			}
+		}
+
 		//the bazaar bargain
 		"402"
 		{
@@ -1448,10 +1687,10 @@
 		{
 			"keepattribs" "1"
 			//no headshots
-			"attribute2"
+			"attribute1"
 			{
 				"id"	"42"
-				"value"	"0"
+				"value"	"1"
 			}
 		}
 
@@ -1497,6 +1736,12 @@
 					"id"	"5"
 					"value"	"1"
 				}
+				//no random crits
+				"attribute3"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
 			}
 
 		//secondary
@@ -1510,7 +1755,13 @@
 				//damage vulnerability
 				"attribute1"
 				{
-					"id"	"61"
+					"id"	"412"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -1568,6 +1819,12 @@
 					"id"	"868"
 					"value"	"0"
 				}
+				//no random crits
+				"attribute4"
+				{
+					"id"	"15" 
+					"value"	"1"
+				}
 			}
 
 			//the diamondback
@@ -1578,6 +1835,12 @@
 				"attribute1"
 				{
 					"id"	"1" 
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -1599,9 +1862,15 @@
 			{
 				"keepattribs" "1"
 				//slower firing speed
-				"attribute2"
+				"attribute1"
 				{
 					"id"	"5"
+					"value"	"1"
+				}
+				//no random crits
+				"attribute2"
+				{
+					"id"	"15" 
 					"value"	"1"
 				}
 			}
@@ -1630,6 +1899,12 @@
 				"attribute1"
 				{
 					"id"	"729"
+					"value"	"1"
+				}
+				//cloak meter from ammoboxes while invis
+				"attribute2"
+				{
+					"id"	"728"
 					"value"	"0"
 				}
 			}
@@ -1691,7 +1966,25 @@
 					"value"	"1"
 				}
 				//disguises fully deplet cloak meter
+				"attribute2"
+				{
+					"id"	"816"
+					"value"	"0"
+				}
+			}
+
+			//Wanga prick
+			"574"
+			{
+				"keepattribs" "1"
+				//cloak drain rate
 				"attribute1"
+				{
+					"id"	"34"
+					"value"	"1"
+				}
+				//disguises fully deplet cloak meter
+				"attribute2"
 				{
 					"id"	"816"
 					"value"	"0"
