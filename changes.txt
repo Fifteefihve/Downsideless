@@ -1,0 +1,21 @@
+fixes:
+- fixed wrong id for damage penalty on the wrap assassin
+- fixed second banana
+- fixed bushwacka using incorrect id on attribute 1
+- fixed cloak and dagger
+- fixed widowmaker not having infinite ammo
+
+news:
+- added gas passer
+- added the sticky jumper
+- added all reskins
+- removed the "no random crits" downside from every weapon that had it
+- added the holiday punch
+
+misc.:
+- corrected some weapons attributes from 2 to 1 when only having 1 attribute
+
+(cow manglers damage penalty vs buildings and crits are always minicrits not working, crossbow and syndey sleeper still cant headshot)
+
+to do list:
+cloak and dagger fix and eternal reward
